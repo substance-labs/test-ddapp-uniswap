@@ -1,0 +1,1 @@
+import{__commonJS as r}from"./chunk-DgAfPHQg.js";import{require_react_dom as t}from"./react-dom-xovCOntK.js";var c=r({"../../node_modules/react-dom/client.js"(e){var o=t();if(1)e.createRoot=o.createRoot,e.hydrateRoot=o.hydrateRoot;else var m}});export{c as require_client};

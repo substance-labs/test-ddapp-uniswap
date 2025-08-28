@@ -1,0 +1,1 @@
+import{CurrencyAmount as e,init_jsbi as r,init_sdk_core_esm as o,jsbi_default as i}from"./utils-BX1Fu73x.js";o();r();const n=i.exponentiate(i.BigInt(10),i.BigInt(16));function _(t){if(t)return t.currency.isNative?i.greaterThan(t.quotient,n)?e.fromRawAmount(t.currency,i.subtract(t.quotient,n)):e.fromRawAmount(t.currency,i.BigInt(0)):t}export{_ as maxAmountSpend};

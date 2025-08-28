@@ -1,0 +1,7 @@
+import{__toESM as x}from"./chunk-DgAfPHQg.js";import{require_jsx_runtime as c}from"./jsx-runtime-D7bMTQeG.js";import{useIsMobile as u}from"./useIsMobile-Cq3RSgOi.js";import{styled_components_default as n}from"./styled-components-DbVO3u5J.js";import{ThemedText as l}from"./text-CK4eXdYc.js";import{LoadingRow as f}from"./styled-qLLlrMEu.js";import{MouseoverTooltip as _}from"./Tooltip-DPNhKWF2.js";import{useHoverProps as h}from"./useHoverProps-BdQsOXMz.js";var e=x(c());const j="  _display-flex _flexBasis-auto _boxSizing-border-box _position-relative _minHeight-0px _minWidth-0px _flexShrink-0 _flexDirection-row _alignItems-center _justifyContent-space-betwe3241 _width-10037 ",w=n(l.BodySmall)`
+  cursor: ${({hasTooltip:o})=>o?"help":"auto"};
+  color: ${({theme:o})=>o.neutral2};
+`,a=n(l.BodySmall)`
+  text-align: right;
+  overflow-wrap: break-word;
+`;function b({children:o,lineItem:t,labelHovered:r,syncing:i}){const{TooltipBody:s,tooltipSize:p,loaderWidth:d}=t,m=u();return i?(0,e.jsx)(f,{"data-testid":"loading-row",height:15,width:d??50}):s?(0,e.jsx)(_,{placement:m?"auto":"right",forceShow:r,size:p,text:(0,e.jsx)(l.Caption,{color:"neutral2",children:(0,e.jsx)(s,{})}),children:(0,e.jsx)(a,{children:o})}):(0,e.jsx)(a,{children:o})}function D({LineItem:o,syncing:t}){const[r,i]=h();return(0,e.jsxs)("div",{className:j,children:[(0,e.jsx)(w,{...i,hasTooltip:!!o.TooltipBody,"data-testid":"swap-li-label",children:(0,e.jsx)(o.Label,{})}),(0,e.jsx)(b,{lineItem:o,labelHovered:r,syncing:t??!1,children:(0,e.jsx)(o.Value,{})})]})}export{D as DetailLineItem};

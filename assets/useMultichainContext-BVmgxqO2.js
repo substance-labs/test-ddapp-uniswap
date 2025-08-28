@@ -1,0 +1,1 @@
+import{__toESM as n}from"./chunk-DgAfPHQg.js";import{require_react as i}from"./react-CNoFhWkx.js";import{useAccount as r}from"./useAccount-C5hwiBwN.js";import{MultichainContext as c}from"./types-OmNOta2_.js";var e=n(i());function p(){const o=r(),t=(0,e.useContext)(c);return{...t,chainId:t.isMultichainContext?t.chainId:o.chainId}}export{p as useMultichainContext};

@@ -1,0 +1,1 @@
+let r=(function(n){return n.SignerMnemonic="signerMnemonic",n.Readonly="readonly",n})({}),o=(function(n){return n[n.Address=0]="Address",n[n.ENS=1]="ENS",n[n.Local=2]="Local",n[n.Unitag=3]="Unitag",n})({});export{r as AccountType,o as DisplayNameType};

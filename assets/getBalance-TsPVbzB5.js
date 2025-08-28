@@ -1,0 +1,1 @@
+import{numberToHex as c}from"./isAddress-P2vaZgmG.js";async function s(e,{address:a,blockNumber:t,blockTag:n="latest"}){const o=typeof t=="bigint"?c(t):void 0,r=await e.request({method:"eth_getBalance",params:[a,o||n]});return BigInt(r)}export{s as getBalance};

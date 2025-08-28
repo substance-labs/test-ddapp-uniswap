@@ -1,0 +1,1 @@
+import{__toESM as n}from"./chunk-DgAfPHQg.js";import{require_react as i}from"./react-CNoFhWkx.js";var r=n(i());function a(e,t){const[o,u]=(0,r.useState)(e);return(0,r.useEffect)(()=>{const c=setTimeout(()=>{u(e)},t);return()=>{clearTimeout(c)}},[e,t]),o}export{a as useDebounce};

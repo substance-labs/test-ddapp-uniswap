@@ -1,0 +1,1 @@
+import{__toESM as c}from"./chunk-DgAfPHQg.js";import{require_react as n}from"./react-CNoFhWkx.js";var t=c(n());function m(a=!1){const[o,e]=(0,t.useState)(a),r=(0,t.useCallback)(()=>e(!0),[]),s=(0,t.useCallback)(()=>e(!1),[]),l=(0,t.useCallback)(()=>e(u=>!u),[]);return{value:o,setTrue:r,setFalse:s,toggle:l,setValue:e}}export{m as useBooleanState};

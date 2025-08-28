@@ -1,0 +1,1 @@
+import{__toESM as m}from"./chunk-DgAfPHQg.js";import{require_react as c}from"./react-CNoFhWkx.js";var s=m(c());function v(e,t,i=!0){(0,s.useEffect)(()=>{if(t===null)return;let r;return o(t,!i),()=>{r&&clearInterval(r)};async function o(f,n=!1){if(!n){const u=e();u&&await u}r=setTimeout(()=>o(f),f)}},[e,t,i])}export{v as useInterval};

@@ -1,0 +1,1 @@
+function i(o=!1){try{if(window.location.ancestorOrigins!==void 0&&window.location.ancestorOrigins.length>0||window.self!==window.top)return o&&window.top&&(window.top.location=window.self.location),!0}catch{if(o)throw new Error("isIFramed: should redirect, but unable to determine if framed");return!0}return!1}export{i as isIFramed};

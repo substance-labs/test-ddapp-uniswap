@@ -1,0 +1,1 @@
+import{__toESM as r}from"./chunk-DgAfPHQg.js";import{require_react as e}from"./react-CNoFhWkx.js";import{require_dist as t}from"./dist-BkMCOhxQ.js";var i=r(t()),o=r(e());function p(){return(0,o.useEffect)(()=>{i.RuntimeLoader.setWasmUrl("/rive/rive.wasm")},[]),null}export{p as default};

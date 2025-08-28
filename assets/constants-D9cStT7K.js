@@ -1,0 +1,1 @@
+import{isAndroid as n,isExtension as e,isIOS as r}from"./index.web-BqgtOHN3.js";const s=()=>e?{}.VERSION??"":"",o=i();function i(){return r?"uniswap-ios":n?"uniswap-android":e?"uniswap-extension":"uniswap-web"}export{o as REQUEST_SOURCE,s as getVersionHeader};

@@ -1,0 +1,1 @@
+import{readContract as e}from"./readContract-Cae4hIjn.js";import{getAction as a}from"./getAction-BBhbL9mE.js";function m(t,n){const{chainId:r,...o}=n,c=t.getClient({chainId:r});return a(c,e,"readContract")(o)}function u(t){return t}export{u as assume0xAddress,m as readContract};

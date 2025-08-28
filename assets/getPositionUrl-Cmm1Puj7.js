@@ -1,0 +1,1 @@
+import{ProtocolVersion as n}from"./types_pb-yZxlo4b1.js";import{getChainUrlParam as o}from"./chainParams-DIOvplzi.js";function s(r){const e=o(r.chainId);return r.version===n.V2?`/positions/v2/${e}/${r.liquidityToken.address}`:r.version===n.V3?`/positions/v3/${e}/${r.tokenId}`:`/positions/v4/${e}/${r.tokenId}`}export{s as getPositionUrl};

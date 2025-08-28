@@ -1,0 +1,1 @@
+import{useExperimentValueFromLayer as r}from"./hooks-Bp0VtWbX.js";import{Layers as a,PriceUxUpdateProperties as u}from"./experiments-rc6XUB0U.js";function c(){return r({layerName:a.SwapPage,param:u.UpdatedPriceUX,defaultValue:!1})}let n=(function(e){return e.Currency="currency",e.ERC721="erc-721",e.ERC1155="erc-1155",e})({});export{n as AssetType,c as usePriceUXEnabled};

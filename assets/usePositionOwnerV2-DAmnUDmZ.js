@@ -1,0 +1,1 @@
+import{erc20Abi as o}from"./call-CTDbaN-t.js";import{assume0xAddress as t}from"./wagmi-CsUiFCSO.js";import{useReadContract as i}from"./useReadContract-DodDFlY8.js";function f({account:e,address:a,chainId:s}){const r=i({address:t(a),chainId:s,abi:o,functionName:"balanceOf",args:e?[e]:void 0,query:{enabled:!!e}}).data;return r?r>0:!1}export{f as usePositionOwnerV2};

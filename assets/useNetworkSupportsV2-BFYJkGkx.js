@@ -1,0 +1,1 @@
+import{V2_ROUTER_ADDRESSES as o,init_sdk_core_esm as e}from"./utils-BX1Fu73x.js";import{useAccount as r}from"./useAccount-C5hwiBwN.js";e();const n=Object.keys(o).map(t=>parseInt(t));function _(){const{chainId:t}=r();return t&&n.includes(t)}export{n as SUPPORTED_V2POOL_CHAIN_IDS,_ as useNetworkSupportsV2};

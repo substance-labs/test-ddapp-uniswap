@@ -1,0 +1,1 @@
+import{init_module as e,module_default as m}from"./src-DOOtfpHS.js";import{Flex as t}from"./Loader-D83W8G1W.js";e();const o=m.createAnimatedComponent(t);o.displayName="AnimatedFlex";export{o as AnimatedFlex};

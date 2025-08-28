@@ -1,0 +1,1 @@
+import{__toESM as o}from"./chunk-DgAfPHQg.js";import{require_react as n}from"./react-CNoFhWkx.js";var e=o(n());const c=(0,e.createContext)({});function u(t){const r=(0,e.useContext)(c);return(0,e.useMemo)(()=>({...r,...t}),[r,t])}export{c as TraceContext,u as useTrace};

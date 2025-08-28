@@ -1,0 +1,1 @@
+import{WRAPPED_NATIVE_CURRENCY as n,nativeOnChain as t}from"./objects-DlLkJwrJ.js";function E(i){var a;return i.isNative?i:!((a=n[i.chainId])===null||a===void 0)&&a.equals(i)?t(i.chainId):i}export{E as unwrappedToken};

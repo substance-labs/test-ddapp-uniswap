@@ -1,0 +1,1 @@
+import{__toESM as o}from"./chunk-DgAfPHQg.js";import{require_react as t}from"./react-CNoFhWkx.js";var s=o(t());function p(){const[r,e]=(0,s.useState)(!1);return[r,{onMouseEnter:()=>e(!0),onMouseLeave:()=>e(!1)}]}export{p as useHoverProps};

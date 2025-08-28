@@ -1,0 +1,1 @@
+function n(t){return r(t.toString(16))}function e(t){return t.startsWith("0x")?parseInt(t.slice(2),16):parseInt(t,16)}function r(t){return t.startsWith("0x")?t:`0x${t}`}function i(t){return/^0x[0-9a-fA-F]+$/.test(t)}export{r as ensure0xHex,e as hexToNumber,i as isValidHexString,n as numberToHex};

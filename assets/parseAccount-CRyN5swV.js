@@ -1,0 +1,1 @@
+function e(r){return typeof r=="string"?{address:r,type:"json-rpc"}:r}export{e as parseAccount};

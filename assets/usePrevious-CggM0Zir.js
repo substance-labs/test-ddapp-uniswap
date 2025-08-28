@@ -1,0 +1,1 @@
+import{__toESM as o}from"./chunk-DgAfPHQg.js";import{require_react as u}from"./react-CNoFhWkx.js";var t=o(u());function i(r){const e=(0,t.useRef)();return(0,t.useEffect)(()=>{e.current=r},[r]),e.current}export{i as usePrevious};

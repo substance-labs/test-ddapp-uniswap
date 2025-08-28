@@ -1,0 +1,1 @@
+import{__toESM as t}from"./chunk-DgAfPHQg.js";import{require_react as o}from"./react-CNoFhWkx.js";import{UniverseChainId as i}from"./utils-BX1Fu73x.js";import{nativeOnChain as e}from"./objects-DlLkJwrJ.js";var m=t(o());function f(r){return(0,m.useMemo)(()=>r?e(r):e(i.Mainnet),[r])}export{f as useNativeCurrency};

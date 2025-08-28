@@ -1,0 +1,1 @@
+import{useQuery as r}from"./use-query-8AOGtvlP.js";import{uniswapPostTransport as t}from"./base-DVpWJ4NW.js";import{getPosition as e}from"./api-PoolsService_connectquery-N1pfS4Yc.js";function m(o){return r(e,o,{transport:t,enabled:!!o})}export{m as useGetPositionQuery};

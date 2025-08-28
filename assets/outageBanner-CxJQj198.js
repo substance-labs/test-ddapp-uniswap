@@ -1,0 +1,1 @@
+import{ProtocolVersion as s}from"./utils-BX1Fu73x.js";import{atomWithReset as n,useResetAtom as r,useUpdateAtom as m}from"./utils-CDaPKk14.js";const o=n(void 0);function g({chainId:t,errorV3:a,errorV2:u}){const e=m(o);r(o)(),a&&t&&e({chainId:t}),u&&t&&e({chainId:t,version:s.V2})}export{o as manualChainOutageAtom,g as useUpdateManualOutage};

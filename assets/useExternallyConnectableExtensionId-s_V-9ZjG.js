@@ -1,0 +1,1 @@
+import{TRUSTED_CHROME_EXTENSION_IDS as n}from"./hooks-BXO4d1DJ.js";import{DynamicConfigs as e,ExternallyConnectableExtensionConfigKey as o}from"./configs-B4dDdw82.js";import{useDynamicConfigValue as t}from"./hooks-Bp0VtWbX.js";function E(){return t({config:e.ExternallyConnectableExtension,key:o.ExtensionId,defaultValue:n.prod})}export{E as useExternallyConnectableExtensionId};

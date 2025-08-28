@@ -1,0 +1,1 @@
+import{instance as n}from"./i18next-DD3sT7R5.js";import{isInterface as m}from"./index.web-BqgtOHN3.js";let e="";async function u(t){if(m){let a=0;for(;e&&a<3;)await new Promise(i=>setTimeout(i,100)),a++}n.language===t||t===e||(e=t,await n.changeLanguage(t),n.emit(""),e="")}var f=n;export{u as changeLanguage,f as i18n_default};
